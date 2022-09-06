@@ -9,3 +9,7 @@ homework due 7/6
 6) line 13 got rid of the white space 
 7) line 14 is to print and see the changes in the column name
 8) line 16 list the column type
+9) lines 18-20 is checking the column types
+10) line 21 is checking for missing values
+11) lines 23-24 is rename the column to the new desired name 
+12) lines 26-27 is setting the values inside the new column name to 'true' or 'false'
