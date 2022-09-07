@@ -15,3 +15,14 @@ list(df)
 
 df.dtypes
 
+
+numbers = df.select_dtypes(include=['int64', 'float64']).columns
+numbers
+df.isnull().sum()
+
+df2 = df.rename(columns= {'learning_modality' : 'modality_inperson'})
+list(df2)
+
+df2['modality_inperson'] = df2['modality_inperson'].map({'In Person' :True , 'Hybrid' :False , 'Remote' :False})
+df2['modality_inperson']
+
